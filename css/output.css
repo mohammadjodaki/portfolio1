@@ -810,6 +810,10 @@ video {
   width: 0px;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
 .rotate-17 {
   --tw-rotate: 17deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1209,6 +1213,10 @@ video {
   margin: 20px;
 }
 
+.\*\:overflow-x-hidden > * {
+  overflow-x: hidden;
+}
+
 .\*\:rounded-full > * {
   border-radius: 9999px;
 }
@@ -1299,6 +1307,11 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:font-bold {
