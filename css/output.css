@@ -612,28 +612,28 @@ video {
   left: 50%;
 }
 
-.right-\[-40\%\] {
-  right: -40%;
+.right-\[-1000px\] {
+  right: -1000px;
 }
 
-.right-\[-80\%\] {
-  right: -80%;
+.right-\[-500px\] {
+  right: -500px;
 }
 
 .right-\[0\] {
   right: 0;
 }
 
-.right-\[120\%\] {
-  right: 120%;
+.right-\[1000px\] {
+  right: 1000px;
 }
 
-.right-\[40\%\] {
-  right: 40%;
+.right-\[1500px\] {
+  right: 1500px;
 }
 
-.right-\[80\%\] {
-  right: 80%;
+.right-\[500px\] {
+  right: 500px;
 }
 
 .top-0 {
@@ -778,8 +778,8 @@ video {
   width: 350px;
 }
 
-.w-\[400px\] {
-  width: 400px;
+.w-\[380px\] {
+  width: 380px;
 }
 
 .w-\[430px\] {
@@ -816,19 +816,19 @@ video {
 
 @keyframes pic1 {
   0 {
-    right: 120%;
+    right: 1500px;
   }
 
   0.0000000001% {
-    right: -80%;
+    right: -1000px;
   }
 
   20% {
-    right: -80%;
+    right: -1000px;
   }
 
   40% {
-    right: -40%;
+    right: -500px;
   }
 
   60% {
@@ -836,11 +836,11 @@ video {
   }
 
   80% {
-    right: 40%;
+    right: 500px;
   }
 
   100% {
-    right: 80%;
+    right: 1000px;
   }
 }
 
@@ -850,19 +850,19 @@ video {
 
 @keyframes pic2 {
   20% {
-    right: 120%;
+    right: 1500px;
   }
 
   20.0000000001% {
-    right: -80%;
+    right: -1000px;
   }
 
   40% {
-    right: -80%;
+    right: -1000px;
   }
 
   60% {
-    right: -40%;
+    right: -500px;
   }
 
   80% {
@@ -870,7 +870,7 @@ video {
   }
 
   100% {
-    right: 40%;
+    right: 500px;
   }
 }
 
@@ -880,19 +880,19 @@ video {
 
 @keyframes pic3 {
   40% {
-    right: 120%;
+    right: 1500px;
   }
 
   40.00000000001% {
-    right: -80%;
+    right: -1000px;
   }
 
   60% {
-    right: -80%;
+    right: -1000px;
   }
 
   80% {
-    right: -40;
+    right: -500px;
   }
 
   100% {
@@ -906,19 +906,19 @@ video {
 
 @keyframes pic4 {
   60% {
-    right: 120%;
+    right: 1500px;
   }
 
   60.00000000001% {
-    right: -80%;
+    right: -1000px;
   }
 
   80% {
-    right: -80%;
+    right: -1000px;
   }
 
   100% {
-    right: -40%;
+    right: -500px;
   }
 }
 
@@ -928,15 +928,15 @@ video {
 
 @keyframes pic5 {
   80% {
-    right: 120%;
+    right: 1500px;
   }
 
   80.00000000001% {
-    right: -80%;
+    right: -1000px;
   }
 
   100% {
-    right: -80%;
+    right: -1000px;
   }
 }
 
@@ -946,7 +946,7 @@ video {
 
 @keyframes pic6 {
   100% {
-    right: 120%;
+    right: 1500px;
   }
 }
 
@@ -960,7 +960,7 @@ video {
   }
 
   100% {
-    transform: translatex(-800px);
+    transform: translatex(-1000px);
   }
 }
 
