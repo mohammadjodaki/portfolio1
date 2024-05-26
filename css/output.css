@@ -758,6 +758,10 @@ video {
   height: 100vh;
 }
 
+.h-\[310px\] {
+  height: 310px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -796,6 +800,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[330px\] {
+  width: 330px;
+}
+
+.w-\[0px\] {
+  width: 0px;
 }
 
 .rotate-17 {
@@ -1071,6 +1083,10 @@ video {
   padding: 2rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1274,6 +1290,10 @@ video {
 
   .md\:w-\[600px\] {
     width: 600px;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:text-xl {
