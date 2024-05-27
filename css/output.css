@@ -725,10 +725,6 @@ video {
   height: 100%;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -1090,6 +1086,18 @@ video {
   text-align: justify;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1129,8 +1137,24 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[300px\] {
+  font-size: 300px;
+}
+
+.text-\[3px\] {
+  font-size: 3px;
+}
+
+.text-\[350px\] {
+  font-size: 350px;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .uppercase {
@@ -1162,6 +1186,10 @@ video {
   color: rgb(39 39 42 / var(--tw-text-opacity));
 }
 
+.text-\[px\] {
+  color: px;
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1173,24 +1201,16 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 .duration-500 {
   transition-duration: 500ms;
 }
 
 .duration-700 {
   transition-duration: 700ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.duration-100 {
-  transition-duration: 100ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 .row{
@@ -1248,11 +1268,6 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.hover\:text-2xl:hover {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .hover\:text-lg:hover {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1260,6 +1275,18 @@ video {
 
 .peer:hover ~ .peer-hover\:text-\[320px\] {
   font-size: 320px;
+}
+
+.peer:hover ~ .peer-hover\:text-\[220px\] {
+  font-size: 220px;
+}
+
+.peer:hover ~ .peer-hover\:text-\[2px\] {
+  font-size: 2px;
+}
+
+.peer:hover ~ .peer-hover\:text-\[270px\] {
+  font-size: 270px;
 }
 
 .peer:hover ~ .peer-hover\:text-gray-600 {
@@ -1394,10 +1421,5 @@ video {
   .lg\:hover\:text-2xl:hover {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .lg\:hover\:text-lg:hover {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
