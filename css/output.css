@@ -669,6 +669,14 @@ video {
   height: 2.5rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
 .h-7 {
   height: 1.75rem;
 }
@@ -717,8 +725,16 @@ video {
   height: 100%;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .w-10 {
   width: 2.5rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .w-24 {
@@ -923,6 +939,10 @@ video {
   animation: text 10s linear infinite;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-center {
   align-items: center;
 }
@@ -933,6 +953,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .overflow-hidden {
@@ -979,9 +1003,18 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-t-2 {
+  border-top-width: 2px;
+}
+
 .border-cyan-500 {
   --tw-border-opacity: 1;
   border-color: rgb(6 182 212 / var(--tw-border-opacity));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .border-gray-400 {
@@ -1086,6 +1119,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1109,6 +1152,11 @@ video {
   color: rgb(82 82 91 / var(--tw-text-opacity));
 }
 
+.text-zinc-700 {
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
+}
+
 .text-zinc-800 {
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
@@ -1129,6 +1177,22 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -1136,6 +1200,15 @@ video {
 
 .\*\:m-\[20px\] > * {
   margin: 20px;
+}
+
+.\*\:m-auto > * {
+  margin: auto;
+}
+
+.\*\:my-4 > * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .\*\:overflow-x-hidden > * {
@@ -1173,6 +1246,16 @@ video {
 .\*\:text-gray-700 > * {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.hover\:text-2xl:hover {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.hover\:text-lg:hover {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .peer:hover ~ .peer-hover\:text-\[320px\] {
@@ -1267,8 +1350,17 @@ video {
     height: 370px;
   }
 
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:border-2 {
     border-width: 2px;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-9xl {
@@ -1280,13 +1372,32 @@ video {
     font-size: 200px;
   }
 
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .lg\:\*\:px-8 > * {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
+  .lg\:hover\:w-5\/12:hover {
+    width: 41.666667%;
+  }
+
   .lg\:hover\:rotate-0:hover {
     --tw-rotate: 0deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:hover\:text-2xl:hover {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:hover\:text-lg:hover {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
