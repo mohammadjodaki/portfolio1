@@ -1086,16 +1086,8 @@ video {
   text-align: justify;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl {
@@ -1137,24 +1129,8 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[300px\] {
-  font-size: 300px;
-}
-
-.text-\[3px\] {
-  font-size: 3px;
-}
-
-.text-\[350px\] {
-  font-size: 350px;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .uppercase {
@@ -1184,10 +1160,6 @@ video {
 .text-zinc-800 {
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
-}
-
-.text-\[px\] {
-  color: px;
 }
 
 .shadow-2xl {
@@ -1224,6 +1196,14 @@ video {
 
 .\*\:m-auto > * {
   margin: auto;
+}
+
+.\*\:m-\[px\] > * {
+  margin: px;
+}
+
+.\*\:m-\[10px\] > * {
+  margin: 10px;
 }
 
 .\*\:my-4 > * {
@@ -1275,18 +1255,6 @@ video {
 
 .peer:hover ~ .peer-hover\:text-\[320px\] {
   font-size: 320px;
-}
-
-.peer:hover ~ .peer-hover\:text-\[220px\] {
-  font-size: 220px;
-}
-
-.peer:hover ~ .peer-hover\:text-\[2px\] {
-  font-size: 2px;
-}
-
-.peer:hover ~ .peer-hover\:text-\[270px\] {
-  font-size: 270px;
 }
 
 .peer:hover ~ .peer-hover\:text-gray-600 {
