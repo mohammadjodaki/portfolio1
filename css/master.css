@@ -5,3 +5,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter.ttf) format('ttf');
+  }

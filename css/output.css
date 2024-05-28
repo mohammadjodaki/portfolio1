@@ -554,10 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -634,10 +630,6 @@ video {
   z-index: 40;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -665,10 +657,6 @@ video {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-20 {
   height: 5rem;
 }
@@ -685,6 +673,10 @@ video {
   height: 18rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .h-\[1200px\] {
   height: 1200px;
 }
@@ -697,8 +689,8 @@ video {
   height: 315px;
 }
 
-.h-\[320px\] {
-  height: 320px;
+.h-\[330px\] {
+  height: 330px;
 }
 
 .h-\[365px\] {
@@ -725,28 +717,12 @@ video {
   height: 100%;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.h-\[30px\] {
-  height: 30px;
-}
-
-.h-\[340px\] {
-  height: 340px;
-}
-
-.h-\[330px\] {
-  height: 330px;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-2\/3 {
   width: 66.666667%;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-24 {
@@ -757,16 +733,16 @@ video {
   width: 18rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[2px\] {
   width: 2px;
 }
 
 .w-\[300px\] {
   width: 300px;
-}
-
-.w-\[320px\] {
-  width: 320px;
 }
 
 .w-\[350px\] {
@@ -783,18 +759,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-20 {
-  width: 5rem;
 }
 
 .rotate-17 {
@@ -987,6 +951,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1122,6 +1090,10 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.font-inter {
+  font-family: inter;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1142,8 +1114,8 @@ video {
   line-height: 1;
 }
 
-.text-\[400px\] {
-  font-size: 400px;
+.text-\[360px\] {
+  font-size: 360px;
 }
 
 .text-lg {
@@ -1222,6 +1194,12 @@ video {
   flex-wrap: wrap;
 }
 
+@font-face {
+  font-family: 'Inter';
+
+  src: url(../font/Inter.ttf) format('ttf');
+}
+
 .\*\:m-\[10px\] > * {
   margin: 10px;
 }
@@ -1277,8 +1255,8 @@ video {
   line-height: 1.75rem;
 }
 
-.peer:hover ~ .peer-hover\:text-\[320px\] {
-  font-size: 320px;
+.peer:hover ~ .peer-hover\:text-\[280px\] {
+  font-size: 280px;
 }
 
 .peer:hover ~ .peer-hover\:text-gray-600 {
@@ -1289,14 +1267,6 @@ video {
 @media (min-width: 768px) {
   .md\:mr-28 {
     margin-right: 7rem;
-  }
-
-  .md\:mr-2 {
-    margin-right: 0.5rem;
-  }
-
-  .md\:mr-24 {
-    margin-right: 6rem;
   }
 
   .md\:flex {
@@ -1348,14 +1318,14 @@ video {
     line-height: 1;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:font-bold {
@@ -1365,11 +1335,6 @@ video {
   .md\:\*\:px-3 > * {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-  }
-
-  .md\:\*\:px-2 > * {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 }
 
