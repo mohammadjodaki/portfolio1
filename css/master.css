@@ -6,6 +6,6 @@
     flex-wrap: wrap;
 }
 @font-face {
-    font-family: 'Inter';
-    src: url(../font/Inter.ttf) format('ttf');
+    font-family: Inter;
+    src: url("../font/Inter.ttf") format("opentype");
   }

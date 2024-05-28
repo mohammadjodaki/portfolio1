@@ -947,10 +947,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1091,7 +1087,7 @@ video {
 }
 
 .font-inter {
-  font-family: inter;
+  font-family: Inter;
 }
 
 .text-2xl {
@@ -1195,9 +1191,9 @@ video {
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: Inter;
 
-  src: url(../font/Inter.ttf) format('ttf');
+  src: url("../font/Inter.ttf") format("opentype");
 }
 
 .\*\:m-\[10px\] > * {
