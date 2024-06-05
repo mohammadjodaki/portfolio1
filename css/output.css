@@ -661,10 +661,6 @@ video {
   display: flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-16 {
   height: 4rem;
 }
@@ -780,8 +776,8 @@ video {
 
 @keyframes circle {
   100% {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -1127,12 +1123,8 @@ video {
   line-height: 1;
 }
 
-.text-\[300px\] {
-  font-size: 300px;
-}
-
-.text-\[350px\] {
-  font-size: 350px;
+.text-\[150px\] {
+  font-size: 150px;
 }
 
 .text-lg {
@@ -1148,10 +1140,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[150px\] {
-  font-size: 150px;
 }
 
 .font-bold {
@@ -1190,10 +1178,6 @@ video {
 .text-zinc-800 {
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .shadow-2xl {
@@ -1280,18 +1264,9 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.hover\:w-1\/2:hover {
-  width: 50%;
-}
-
 .hover\:rotate-0:hover {
   --tw-rotate: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:bg-cyan-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(103 232 249 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-cyan-800:hover {
@@ -1304,14 +1279,6 @@ video {
   line-height: 1.75rem;
 }
 
-.peer:hover ~ .peer-hover\:text-\[250px\] {
-  font-size: 250px;
-}
-
-.peer:hover ~ .peer-hover\:text-\[300px\] {
-  font-size: 300px;
-}
-
 .peer:hover ~ .peer-hover\:text-\[100px\] {
   font-size: 100px;
 }
@@ -1319,10 +1286,6 @@ video {
 .peer:hover ~ .peer-hover\:text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.peer:hover ~ .peer-hover\:text-\[px\] {
-  color: px;
 }
 
 @media (min-width: 768px) {
@@ -1333,10 +1296,6 @@ video {
 
   .md\:mr-24 {
     margin-right: 6rem;
-  }
-
-  .md\:flex {
-    display: flex;
   }
 
   .md\:h-12 {
@@ -1388,6 +1347,14 @@ video {
     line-height: 1;
   }
 
+  .md\:text-\[300px\] {
+    font-size: 300px;
+  }
+
+  .md\:text-\[350px\] {
+    font-size: 350px;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1396,14 +1363,6 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-\[300px\] {
-    font-size: 300px;
-  }
-
-  .md\:text-\[350px\] {
-    font-size: 350px;
   }
 
   .md\:font-bold {
